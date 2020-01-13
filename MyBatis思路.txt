@@ -1,4 +1,4 @@
-MyBatis框架
+﻿MyBatis框架
 导入依赖 mysql mybaits log4j
 创建resources文件夹,make dictionary as root
 在resources文件夹下
@@ -24,6 +24,8 @@ java文件夹下创建测试类测试方法
 使用Sqlsession对象打开连接 用getMapper方法执行接口的方法
 获得结果
 使用foreach循环是输出foreach对象
+二蛋我爱你
+
 
 
 
