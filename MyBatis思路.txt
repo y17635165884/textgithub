@@ -1,0 +1,31 @@
+MyBatis框架
+导入依赖 mysql mybaits log4j
+创建resources文件夹,make dictionary as root
+在resources文件夹下
+配置MyBaits框架配置文件 configuration.xml
+配置日志文件log4j
+配置database.properties文件,包含连接mysql数据库的驱动等
+configuration.properites里的名字与database.properites相同 建立两个配置文件的关系 从而使mybaits框架连接mysql数据库
+创建java文件夹 make dictionary as source
+在java文件夹下
+创建包
+公司名.项目名.pojo
+创建实体类
+增加 set get方法 增加有参无参构造函数 为方便测试增加toString方法
+创建包mapper,在其下创建UserMapper作为方法接口(Dao)
+在UserMapper里写方法
+在resources文件夹下创建mapper文件夹,创建UserMapper xml文件实现接口的方法
+根据namespace以及id与接口 建立连接
+java文件夹下创建测试类测试方法
+测试方法:
+引入配置源文件String resource=myBaits的配置文件 config...xml
+使用输入流 InputStream 从硬盘读取配置文件
+用session工厂打开数据库的和配置文件与测试类的连接 
+使用Sqlsession对象打开连接 用getMapper方法执行接口的方法
+获得结果
+使用foreach循环是输出foreach对象
+
+
+
+
+
